@@ -1,6 +1,6 @@
 // Meme loader
 function loadMeme() {
-  const totalMemes = 18;  // number of memes
+  const totalMemes = 16;  // number of memes
   const randomIndex = Math.floor(Math.random() * totalMemes) + 1;
   document.getElementById("meme").src = "meme/" + randomIndex + ".jpg";
 }
